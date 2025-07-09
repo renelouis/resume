@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write # Required to allow GITHUB_TOKEN to write to gh-pages branch, and deploy to GitHub Pages
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
