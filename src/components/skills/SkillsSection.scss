@@ -1,0 +1,54 @@
+@use "../../_variables.scss" as v;
+
+.skills {
+  background: #f7f7f7;
+}
+
+.skills-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.skills-flex h2 {
+  margin: 0 16px 0 0;
+  min-width: 80px;
+  font-size: 1.2rem;
+  align-self: flex-start;
+}
+
+.skills-flex ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-flex li {
+  background: #e9ecef;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 1rem;
+}
+
+@media (max-width: v.$breakpoint-mobile) {
+  .skills-flex {
+    flex-direction: row;
+    gap: 8px;
+    align-items: stretch;
+  }
+  .skills-flex h2 {
+    margin: 0 0 8px 0;
+    min-width: unset;
+    font-size: 1.1rem;
+    transform: none;
+    color: #22223b;
+  }
+  .skills-flex ul {
+    flex-direction: row;
+    gap: 6px;
+  }
+}
