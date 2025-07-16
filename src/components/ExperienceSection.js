@@ -9,6 +9,11 @@ const ExperienceSection = ({ experiences }) => (
           <strong>{exp.role}</strong> at {exp.company} <br />
           <em>{exp.period}</em>
           <p>{exp.description}</p>
+          <ul>
+            {experiences[idx].details.map((item, itemIdx) => (
+              <li key={itemIdx}>{item}</li>
+            ))}
+          </ul>
         </li>
       ))}
     </ul>

@@ -1,0 +1,112 @@
+{
+  "personal": {
+    "name": "René Louis",
+    "jobTitle": "Software Engineer",
+    "email": "rene.gilles.louis@gmail.com",
+    "phone": "",
+    "address": ""
+  },
+  "summary": "Software engineer with experience in Java, Spring Boot, Kafka, GCP, etc. Certified GCP Professional Data engineer and GCP Associate Cloud Engineer. Passionate about building scalable and efficient systems. And good at writing code",
+  "skills": ["Java", "Spring Boot", "Kafka", "GCP", "React", "SQL", "Docker"],
+  "certifications": [
+    {
+      "issuer": "Google Cloud",
+      "title": "Certified Professional Data Engineer (GCP CDE)",
+      "date": "December 2023"
+    },
+    {
+      "issuer": "Google Cloud",
+      "title": "Certified Associate Cloud Engineer (GCP ACE)",
+      "date": "May 2023"
+    }
+  ],
+  "experiences": [
+    {
+      "role": "Software Engineer",
+      "company": "Lloyds Banking Group",
+      "period": "April 2024 - Present",
+      "description": "Lead backend development for cloud-based solutions",
+      "details": []
+    },
+    {
+      "role": "Graduate Software Engineer",
+      "company": "Lloyds Banking Group",
+      "period": "September 2022 - April 2024",
+      "description": "",
+      "details": [
+        "Produced high quality, robust, well tested code for Big Data ETL Spark applications using Scala",
+        "Migrated Spark applications from on-prem Haddop clusters to GCP, using Dataproc",
+        "Created Airflow DAGs to schedule exectution of Spark applications through Cloud Composer",
+        "Mentored junior developers with weekly 1 to 1 and shdowing sessions",
+        "Reduced duration of Jenkins jobs triggering tasks through Composer by 30%",
+        "Explored use of Google AML AI as part of anit-money laundering checks",
+        "DEvelope knowledge of BigQuery dataset creation through Terraform scripts",
+        "Led workshops with business analysts and data SMEs to create data mapping for AML AI PoC",
+        "Second place achieed in Reboot X HAckathon in December 2023, using Microsoft Azure",
+        "Experience using Terraform to deploy infrastructure on GCP"
+      ]
+    },
+    {
+      "role": "MI & Data Analyst",
+      "company": "Lloyds Banking Group",
+      "period": "October 2021 - April September 2022",
+      "description": "",
+      "details": [
+        "Prepare daily, weekly and monthly MI and date to support workload management for the Anti Money Laundering team within Commercial Bankiing",
+        "Schedule AML reviews reviews as per requirements agreed  with senior stakeholders",
+        "Automated genereation of daily MI emails to senior management using VBA macros in Excel",
+        "Use of SQL to pull and analyse information to answer business queries",
+        "This role developed my ability to understand problems form stakeholders' point of view"
+      ]
+    },
+    {
+      "role": "Box & Reconciliations Analyst",
+      "company": "Lloyds Banking Group",
+      "period": "September 2018 - Ocotber 2021",
+      "description": "",
+      "details": [
+        "REview and investigate operational risks and suggest improvements to reduc risks",
+        "Built VBA macros to assist operational teams with daily compliance checks",
+        "Automate several processes across various teams",
+        "My analytical skills and ability to interact with different levels of stakeholders (from administrators to heads of function) with Workplace Pensions, Retirement and Protection, HElth Claims and Bereaved areas helped me develop rapidly in nthis role"
+      ]
+    },
+    {
+      "role": "Corporate Pensions Administrator",
+      "company": "Lloyds Banking Group",
+      "period": "October 2015 - September 2018",
+      "description": "",
+      "details": [
+        "Ensure collection of monthly pension premiums for a portfolio of 35 companies, for a total of £ 4 million monthly",
+        "Main contact for employers and advisers, answering varied type of requests from multiple parties",
+        "I was entrusted with additional tasks, such as quality checking, control checks for unti holdings and box movement investigations. Those tasks are essential to ensure processes are adhered to and avoid potential losses",
+        "I assisted in the development and testing a CHAPS app to replace a paper-based process, which was a success and is now used by all administrators to nissue same day CHAPS payments",
+        "Built ad hoc Mainframe macros to update properties for bulk of policies using VBA"
+      ]
+    },
+    {
+      "role": "Subject Access Request Administrator",
+      "company": "The Royal Bank of Scotland",
+      "period": "August 2015 - October 2015",
+      "description": "",
+      "details": [
+        "Investigate Subject Access Requests (SARs) for the Royal Bank of Scotland Group's customers",
+        "Source personal data related to the customer",
+        "This role developed my ability within a strictly regulated environment, under set deadlines"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "1st class BEng Mechanical (Automotive) Engineering",
+      "school": "Heriot-Watt University",
+      "period": "September 2009 - June 2011",
+      "description": "Core modules provide deep in engineering and project management. Direct entry in third year was offered to me after successful completion of a two year degree in France"
+    },
+    {
+      "degree": "DUT Génie Industiel et Maintenance, equivalent of  HND in Industrial Engineering and Maintenance",
+      "school": "Université du Sud Toulon Var, La Garde, France",
+      "period": "September 2007 - June 2009"
+    }
+  ]
+}

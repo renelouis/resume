@@ -1,54 +1,24 @@
-import "./App.css";
 import "./components/skills/SkillsSection.scss";
 import ResumeLayout from "./components/ResumeLayout";
 import ProfileSection from "./components/ProfileSection";
 import ExperienceSection from "./components/ExperienceSection";
 import EducationSection from "./components/EducationSection";
 import SkillsSection from "./components/skills/SkillsSection";
+import resumeContent from "./content/resumeContent.json";
+import Certifications from "./components/Certifications";
 
 function App() {
   // Placeholder data, to be replaced with parsed content from rene_louis_cv.docx
-  const profile =
-    "Software engineer with experience in Java, Spring Boot, Kafka, GCP, etc. Certified GCP Professional Data engineer and GCP Associate Cloud Engineer. Passionate about building scalable and efficient systems.";
-  const experiences = [
-    {
-      role: "Senior Software Engineer",
-      company: "Tech Company",
-      period: "2021 - Present",
-      description: "Lead backend development for cloud-based solutions.",
-    },
-    {
-      role: "Software Engineer",
-      company: "Another Company",
-      period: "2018 - 2021",
-      description: "Developed scalable microservices and data pipelines.",
-    },
-  ];
-  const education = [
-    {
-      degree: "MSc Computer Science",
-      school: "University Name",
-      period: "2016 - 2018",
-    },
-    {
-      degree: "BSc Information Technology",
-      school: "Another University",
-      period: "2012 - 2016",
-    },
-  ];
-  const skills = [
-    "Java",
-    "Spring Boot",
-    "Kafka",
-    "GCP",
-    "Python",
-    "React",
-    "SQL",
-    "Docker",
-  ];
+  const personalInfo = resumeContent.personal;
+  const profile = resumeContent.summary || "Brief profile summary.";
+  const experiences = resumeContent.experiences;
+  const education = resumeContent.education || [];
+  const skills = resumeContent.skills || [];
+  const certifications = resumeContent.certifications || [];
 
   return (
     <ResumeLayout
+      personalInfo={personalInfo}
       left={
         <>
           <ProfileSection profile={profile} />
@@ -62,6 +32,7 @@ function App() {
       right={
         <div className={"skills-desktop skills"}>
           <SkillsSection skills={skills} />
+          <Certifications certifications={certifications} />
         </div>
       }
     />
