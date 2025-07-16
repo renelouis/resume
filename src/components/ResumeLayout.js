@@ -1,11 +1,11 @@
 import React from "react";
 import "./ResumeLayout.scss";
 
-const ResumeLayout = ({ left, right, skills }) => (
+const ResumeLayout = ({ left, right, skills, personalInfo }) => (
   <div className="resume-layout">
     <header className="resume-header">
-      <h1 className="resume-name">Rene Louis</h1>
-      <h2 className="resume-title">Software Engineer</h2>
+      <h1 className="resume-name">{personalInfo.name}</h1>
+      <h2 className="resume-title">{personalInfo.jobTitle}</h2>
     </header>
     <div className="resume-content">
       <div className="resume-main">{left}</div>
