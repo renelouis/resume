@@ -1,0 +1,45 @@
+name: Bug Report
+description: Report a bug in the application
+labels: [bug]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this bug! Please fill out all required fields so we can triage efficiently.
+
+  - type: input
+    id: title
+    attributes:
+      label: Short Description
+      placeholder: Kafka consumer fails on empty payload...
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps To Reproduce
+      description: How can we reproduce this bug?
+      placeholder: |
+        1. Deploy service to GCP staging
+        2. Send an empty message via Pub/Sub
+        3. Observe logs...
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Affected Environment
+      options:
+        - dev
+        - staging
+        - production
