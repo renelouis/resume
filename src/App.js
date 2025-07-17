@@ -1,6 +1,6 @@
 import "./components/skills/SkillsSection.scss";
 import ResumeLayout from "./components/ResumeLayout";
-import ProfileSection from "./components/ProfileSection";
+import ProfileSection from "./components/profile/ProfileSection";
 import ExperienceSection from "./components/ExperienceSection";
 import EducationSection from "./components/EducationSection";
 import SkillsSection from "./components/skills/SkillsSection";
@@ -22,18 +22,23 @@ function App() {
       left={
         <>
           <ProfileSection profile={profile} />
-          <div className="resume-skills-mobile skills">
-            <SkillsSection skills={skills} />
-          </div>
+          <Certifications
+            certifications={certifications}
+            display="resume-skills-mobile"
+          />
+          <SkillsSection skills={skills} display="resume-skills-mobile" />
           <ExperienceSection experiences={experiences} />
           <EducationSection education={education} />
         </>
       }
       right={
-        <div className={"skills-desktop skills"}>
-          <SkillsSection skills={skills} />
-          <Certifications certifications={certifications} />
-        </div>
+        <>
+          <SkillsSection skills={skills} display="skills-desktop" />
+          <Certifications
+            certifications={certifications}
+            display="skills-desktop"
+          />
+        </>
       }
     />
   );

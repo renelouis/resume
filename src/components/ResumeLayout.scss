@@ -1,5 +1,9 @@
 @use "../_variables.scss" as v;
 
+section + section {
+  border-top: #22223b 2px solid;
+}
+
 .resume-layout {
   max-width: 1000px;
   margin: 40px auto;
@@ -35,7 +39,7 @@
 .resume-main {
   flex: 2;
   padding: 40px 32px;
-  background-color: azure;
+  // background-color: v.$background-darkergrey;
 }
 .resume-side {
   flex: 1;
@@ -58,8 +62,11 @@ ul {
 }
 
 li {
-  background-color: white;
+  background-color: v.$text-background;
   border-radius: 6px;
+  // border-color: #22223b;
+  // border-style: solid;
+  // border-width: 1px;
   padding: 0.8rem;
 }
 
