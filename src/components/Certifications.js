@@ -1,7 +1,7 @@
 import React from "react";
 
-const Certifications = ({ certifications }) => (
-  <section>
+const Certifications = ({ certifications, display }) => (
+  <section className={`${display}`}>
     <h2>Certifications</h2>
     <ul>
       {certifications.map((certification, idx) => (
