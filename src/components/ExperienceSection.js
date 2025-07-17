@@ -1,7 +1,8 @@
 import React from "react";
+import "./Experience.scss";
 
 const ExperienceSection = ({ experiences }) => (
-  <section>
+  <section className="experience-section">
     <h2>Professional Experience</h2>
     <ul>
       {experiences.map((exp, idx) => (
@@ -9,7 +10,7 @@ const ExperienceSection = ({ experiences }) => (
           <strong>{exp.role}</strong> at {exp.company} <br />
           <em>{exp.period}</em>
           <p>{exp.description}</p>
-          <ul>
+          <ul className="experience-details">
             {experiences[idx].details.map((item, itemIdx) => (
               <li key={itemIdx}>{item}</li>
             ))}

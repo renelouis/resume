@@ -1,0 +1,5 @@
+- change list types to make them better looking
+- Style Certification component
+  - Style the 3 fields in it, use flex?
+  - make it visible on small screen
+- Need to complete work experience and rest

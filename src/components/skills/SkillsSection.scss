@@ -14,12 +14,12 @@
 .skills-flex h2 {
   margin: 0 16px 0 0;
   min-width: 80px;
-  font-size: 1.2rem;
   align-self: flex-start;
 }
 
 .skills-flex ul {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   gap: 12px 24px;
   list-style: none;
@@ -39,13 +39,15 @@
     flex-direction: row;
     gap: 8px;
     align-items: stretch;
+    padding: 1em 0.2rem;
+    border-radius: 8px;
   }
   .skills-flex h2 {
     margin: 0 0 8px 0;
     min-width: unset;
-    font-size: 1.1rem;
-    transform: none;
     color: #22223b;
+    // transform: rotate(-90deg);
+    // transform-origin: right center;
   }
   .skills-flex ul {
     flex-direction: row;

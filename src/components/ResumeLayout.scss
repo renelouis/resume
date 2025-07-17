@@ -35,6 +35,7 @@
 .resume-main {
   flex: 2;
   padding: 40px 32px;
+  background-color: azure;
 }
 .resume-side {
   flex: 1;
@@ -45,6 +46,21 @@
 /* Hide mobile skills by default */
 .resume-skills-mobile {
   display: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: white;
+  border-radius: 6px;
+  padding: 0.8rem;
 }
 
 @media (max-width: v.$breakpoint-tablet) {
