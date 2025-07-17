@@ -26,21 +26,19 @@ function App() {
             certifications={certifications}
             display="resume-skills-mobile"
           />
-          {/* <div className="resume-skills-mobile skills"> */}
           <SkillsSection skills={skills} display="resume-skills-mobile" />
-          {/* </div> */}
           <ExperienceSection experiences={experiences} />
           <EducationSection education={education} />
         </>
       }
       right={
-        <div className={"skills-desktop skills"}>
+        <>
           <SkillsSection skills={skills} display="skills-desktop" />
           <Certifications
             certifications={certifications}
             display="skills-desktop"
           />
-        </div>
+        </>
       }
     />
   );
