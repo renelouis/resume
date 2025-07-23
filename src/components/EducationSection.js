@@ -1,7 +1,7 @@
 import React from "react";
 
 const EducationSection = ({ education }) => (
-  <section>
+  <section id="education">
     <h2>Education</h2>
     <ul>
       {education.map((edu, idx) => (

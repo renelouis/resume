@@ -1,7 +1,7 @@
 @use "../_variables.scss" as v;
 
 section + section {
-  border-top: #22223b 2px solid;
+  border-top: v.$background-header 2px solid;
 }
 
 .resume-layout {
@@ -14,7 +14,7 @@ section + section {
 }
 
 .resume-header {
-  background: #22223b;
+  background: v.$background-header;
   color: #fff;
   padding: 32px 32px 24px 32px;
   text-align: center;
@@ -93,4 +93,9 @@ li {
   .skills-desktop {
     display: none;
   }
+}
+
+// Animation for zoom effect
+.zoom-animate {
+  animation: zoomInSection 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }

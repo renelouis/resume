@@ -2,7 +2,7 @@ import React from "react";
 import "./SkillsSection.scss";
 
 const SkillsSection = ({ skills, display }) => (
-  <section className={`skills ${display}`}>
+  <section id="skills" className={`skills ${display}`}>
     <div className="skills-flex">
       <h2>Skills</h2>
       <ul>
