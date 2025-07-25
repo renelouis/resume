@@ -26,7 +26,22 @@
   margin: 0;
   padding: 0.5rem 0;
   list-style: none;
-  gap: 2rem;
+  gap: 0;
+}
+
+.navbar-list > li {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.navbar-link {
+  width: 100%;
+  text-align: center;
 }
 
 .navbar-link {

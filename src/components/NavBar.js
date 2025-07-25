@@ -8,6 +8,8 @@ const sections = [
   { name: "Skills", anchor: "skills" },
   { name: "Experience", anchor: "experience" },
   { name: "Education", anchor: "education" },
+  // { name: "Contact", anchor: "contact" }, // todo: Add contact section
+  // { name: "Download", anchor: "download" }, //TODO: Add download section
 ];
 
 function NavBar() {
