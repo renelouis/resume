@@ -2,7 +2,7 @@ import React from "react";
 import "./Experience.scss";
 
 const ExperienceSection = ({ experiences }) => (
-  <section className="experience-section">
+  <section id="experience" className="experience-section">
     <h2>Professional Experience</h2>
     <ul>
       {experiences.map((exp, idx) => (
