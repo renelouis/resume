@@ -7,7 +7,16 @@
     "address": ""
   },
   "summary": "Software engineer with experience in Java, Spring Boot, Kafka, GCP, etc. Certified GCP Professional Data engineer and GCP Associate Cloud Engineer. Passionate about building scalable and efficient systems. And good at writing code",
-  "skills": ["Java", "Spring Boot", "Kafka", "GCP", "React", "SQL", "Docker"],
+  "skills": [
+    "Java",
+    "Spring Boot",
+    "Kafka",
+    "GCP",
+    "React",
+    "SQL",
+    "Docker",
+    "OCP"
+  ],
   "certifications": [
     {
       "issuer": "Google Cloud",
@@ -25,8 +34,13 @@
       "role": "Software Engineer",
       "company": "Lloyds Banking Group",
       "period": "April 2024 - Present",
-      "description": "Lead backend development for cloud-based solutions",
-      "details": []
+      "description": "",
+      "details": [
+        "Developed microservices using Java 17 and Spring Boot, integrating with Kafka for event-driven architecture",
+        "Conducted testing and debugging of microservices to ensure reliability and performance while deployed on OpenShift Cloud Platform (OCP)",
+        "Investigated and implemented solutions to import secrets form Harshicorp Vault to OCP Secrets",
+        "Designed and implemented PoC microservice in Java 21, integrated with Kafka and Google Pub/Sub to be deployed on Google Kebernetes Engine. This service was selected to be a template for a set of new microservices, part of a new Cloud based Fraud monitoring application"
+      ]
     },
     {
       "role": "Graduate Software Engineer",
