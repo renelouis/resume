@@ -12,13 +12,15 @@ const navSections = [
 
 const ResumeLayout = ({ left, right, skills, personalInfo }) => {
   const headerRef = useRef(null);
-  const [showHamburger, setShowHamburger] = useState(false);
+  const [showHamburger, setShowHamburger] = useState(
+    () => window.innerWidth <= 700
+  );
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       if (!headerRef.current) return;
-      if (window.scrollY > 30) {
+      if (window.scrollY > 30 || window.innerWidth <= 700) {
         headerRef.current.classList.add("shrink");
         setShowHamburger(true);
       } else {
@@ -28,6 +30,7 @@ const ResumeLayout = ({ left, right, skills, personalInfo }) => {
       }
     };
     window.addEventListener("scroll", handleScroll);
+    // window.addEventListener("resize", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 

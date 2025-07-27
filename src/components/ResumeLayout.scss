@@ -33,11 +33,12 @@ section + section {
 
 // Hide nav section by default
 .resume-header > .resume-header-nav {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 0;
-  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 42px;
+  // display: flex;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .resume-header > .resume-header-main {
@@ -48,35 +49,23 @@ section + section {
   justify-content: center;
   min-width: 0;
   transition: flex-basis 0.3s, width 0.3s;
+  padding-right: 40px;
 }
 
-// When hamburger is hidden, header-main takes full width and is centered
-.resume-header:not(.shrink) > .resume-header-main {
-  flex: 1 1 100%;
-  width: 100%;
-}
-.resume-header:not(.shrink) > .resume-header-nav {
-  width: 0;
-  min-width: 0;
-  flex: 0 0 0;
-  overflow: hidden;
-  padding: 0;
-}
-
-// When hamburger is visible, nav takes only needed space, header-main uses rest
-.resume-header.shrink > .resume-header-nav {
-  flex: 0 0 auto;
-  width: auto;
-  min-width: unset;
-}
 .resume-header.shrink > .resume-header-main {
   flex: 1 1 0%;
   width: auto;
 }
 
+// Hide hamburger by default, show only when .shrink or on mobile
 .header-hamburger-wrapper {
   position: relative;
+  // display: none;
 }
+.resume-header.shrink .header-hamburger-wrapper {
+  display: block;
+}
+
 .header-hamburger {
   background: none;
   border: none;
@@ -138,14 +127,6 @@ section + section {
   background: v.$background-header;
   color: #fff;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-}
-
-// Hide hamburger by default, show only when .shrink or on mobile
-.header-hamburger-wrapper {
-  display: none;
-}
-.resume-header.shrink .header-hamburger-wrapper {
-  display: block;
 }
 
 .resume-name {
@@ -241,6 +222,9 @@ li {
   }
   .skills-desktop {
     display: none;
+  }
+  .resume-header > .resume-header-nav > .header-hamburger-wrapper {
+    display: block;
   }
 }
 
