@@ -83,7 +83,7 @@ section + section {
   font-size: 2rem;
   color: #fff;
   cursor: pointer;
-  padding: 0.2em 0.7em;
+  // padding: 0.2em 0.7em;
   border-radius: 6px;
   transition: 0.2s;
   z-index: 120;
@@ -127,6 +127,7 @@ section + section {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
+  flex-wrap: wrap;
 }
 
 // Sticky header for ResumeLayout
@@ -160,7 +161,7 @@ section + section {
   letter-spacing: 0.5px;
 }
 
-@media (min-width: v.$breakpoint-tablet) {
+@media (min-width: v.$breakpoint-mobile) {
   .resume-header.shrink .resume-header-main > .resume-name {
     font-size: 2rem;
   }
