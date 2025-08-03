@@ -51,12 +51,12 @@
         "Produced high quality, robust, well tested code for Big Data ETL Spark applications using Scala",
         "Migrated Spark applications from on-prem Haddop clusters to GCP, using Dataproc",
         "Created Airflow DAGs to schedule exectution of Spark applications through Cloud Composer",
-        "Mentored junior developers with weekly 1 to 1 and shdowing sessions",
+        "Mentored junior developers with weekly 1 to 1 and shadowing sessions",
         "Reduced duration of Jenkins jobs triggering tasks through Composer by 30%",
-        "Explored use of Google AML AI as part of anit-money laundering checks",
-        "DEvelope knowledge of BigQuery dataset creation through Terraform scripts",
+        "Explored use of Google AML AI as part of anti-money laundering checks",
+        "Built knowledge of BigQuery dataset creation through Terraform scripts",
         "Led workshops with business analysts and data SMEs to create data mapping for AML AI PoC",
-        "Second place achieed in Reboot X HAckathon in December 2023, using Microsoft Azure",
+        "Second place achieved in Reboot X Hackathon in December 2023, using Microsoft Azure as platform",
         "Experience using Terraform to deploy infrastructure on GCP"
       ]
     },
