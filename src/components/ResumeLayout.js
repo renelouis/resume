@@ -67,6 +67,7 @@ const ResumeLayout = ({ left, right, skills, personalInfo }) => {
       {/* <div style={{ height: isShrunk ? "100px" : "100px" }}></div> */}
       {/* Hide NavBar if hamburger is shown */}
       {!showHamburger && <NavBar />}
+      {/* <NavBar /> */}
       <div className="resume-content">
         <div className="resume-main">{left}</div>
         <div className="resume-side skills">{right}</div>

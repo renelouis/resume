@@ -10,14 +10,14 @@
   z-index: 10;
 }
 
-.navbar-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 2rem;
-  margin: 0.5rem 1rem;
-  cursor: pointer;
-}
+// .navbar-toggle {
+//   display: none;
+//   background: none;
+//   border: none;
+//   font-size: 2rem;
+//   margin: 0.5rem 1rem;
+//   cursor: pointer;
+// }
 
 .navbar-list {
   display: flex;
@@ -58,4 +58,18 @@
 
 .navbar-link:hover {
   background: #d12828;
+}
+
+// When scrolling down, trigger opacity for navbar
+.fade-out {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.fade-in {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
