@@ -15,8 +15,8 @@ export const useResponsiveHeaderShrink = (headerRef) => {
   );
   console.log("body height:", document.body.offsetHeight);
   useEffect(() => {
-    const SHRINK_THRESHOLD = 30;
-    const UNSHRINK_THRESHOLD = 70;
+    const SHRINK_THRESHOLD = 60;
+    const UNSHRINK_THRESHOLD = 5;
 
     const handleUpdate = () => {
       if (!headerRef.current) return;
