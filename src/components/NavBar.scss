@@ -40,36 +40,12 @@
   align-items: stretch;
 }
 
-// .navbar-link {
-//   width: 100%;
-//   text-align: center;
-// }
-
-// .navbar-link {
-//   background: none;
-//   border: none;
-//   font-size: 1rem;
-//   color: #333;
-//   cursor: pointer;
-//   padding: 0.5rem 1rem;
-//   border-radius: 4px;
-//   transition: background 0.2s;
-// }
-
 .navbar-link:hover {
   background: #d12828;
 }
 
-// When scrolling down, trigger opacity for navbar
-.fade-out {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-}
-.fade-in {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
+@media screen and (max-width: v.$breakpoint-mobile) {
+  .navbar {
+    display: none; // Hide navbar on mobile - button to be shown in header
+  }
 }
