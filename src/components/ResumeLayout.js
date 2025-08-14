@@ -1,4 +1,4 @@
-import React, { use, useEffect, useRef, useState } from "react";
+import React, { useRef } from "react";
 import { useResponsiveHeaderShrink } from "./skills/hooks/useResponsiveHeaderShrink";
 import "./ResumeLayout.scss";
 import NavBar from "./NavBar";
@@ -14,7 +14,7 @@ const navSections = [
 const ResumeLayout = ({ left, right, skills, personalInfo }) => {
   const headerRef = useRef(null);
 
-  const { isShrunk, showHamburger, menuOpen, setMenuOpen } =
+  const { showHamburger, menuOpen, setMenuOpen } =
     useResponsiveHeaderShrink(headerRef);
 
   const handleMenuClick = (anchor) => {
