@@ -20,10 +20,13 @@ section + section {
   text-align: center;
   border-radius: 1em;
   display: flex;
+  transition: padding 0.3s ease, box-shadow 0.3s ease;
+  will-change: padding, font-size; // Tells the browser to optimize for these properties
 }
 
 .resume-header.shrink {
   padding: 12px 12px 8px 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
 }
 
 .resume-header .resume-name,
@@ -127,6 +130,7 @@ section + section {
   background: v.$background-header;
   color: #fff;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .resume-name {
@@ -142,13 +146,29 @@ section + section {
   letter-spacing: 0.5px;
 }
 
-@media (min-width: v.$breakpoint-mobile) {
+.resume-name,
+.resume-title {
+  transition: font-size 0.3s ease, line-height 0.3s ease;
+}
+
+/* @media (min-width: v.$breakpoint-mobile) {
   .resume-header.shrink .resume-header-main > .resume-name {
     font-size: 2rem;
   }
   .resume-header.shrink .resume-header-main > .resume-title {
     font-size: 1.1rem;
   }
+} */
+
+// instead of using @medida query, the size reduction is handled by the useResponsiveHeaderShrink hook
+.resume-header.shrink .resume-name {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.resume-header.shrink .resume-title {
+  font-size: 1.1rem;
+  line-height: 1.2;
 }
 
 .resume-content {

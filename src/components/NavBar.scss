@@ -10,14 +10,14 @@
   z-index: 10;
 }
 
-.navbar-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 2rem;
-  margin: 0.5rem 1rem;
-  cursor: pointer;
-}
+// .navbar-toggle {
+//   display: none;
+//   background: none;
+//   border: none;
+//   font-size: 2rem;
+//   margin: 0.5rem 1rem;
+//   cursor: pointer;
+// }
 
 .navbar-list {
   display: flex;
@@ -40,22 +40,12 @@
   align-items: stretch;
 }
 
-// .navbar-link {
-//   width: 100%;
-//   text-align: center;
-// }
-
-// .navbar-link {
-//   background: none;
-//   border: none;
-//   font-size: 1rem;
-//   color: #333;
-//   cursor: pointer;
-//   padding: 0.5rem 1rem;
-//   border-radius: 4px;
-//   transition: background 0.2s;
-// }
-
 .navbar-link:hover {
   background: #d12828;
+}
+
+@media screen and (max-width: v.$breakpoint-mobile) {
+  .navbar {
+    display: none; // Hide navbar on mobile - button to be shown in header
+  }
 }

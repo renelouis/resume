@@ -13,29 +13,10 @@ const sections = [
 ];
 
 function NavBar() {
-  const [open, setOpen] = useState(false);
-
-  // const handleNavClick = (anchor) => {
-  //   const el = document.getElementById(anchor);
-  //   if (el) {
-  //     el.scrollIntoView({ behavior: "smooth" });
-  //     el.classList.add("zoom-animate");
-  //     setTimeout(() => {
-  //       el.classList.remove("zoom-animate");
-  //     }, 500); // match animation duration
-  //     setOpen(false);
-  //   }
-  // };
+  const [open] = useState(false);
 
   return (
     <nav className="navbar">
-      <button
-        className="navbar-toggle"
-        onClick={() => setOpen((prev) => !prev)}
-        aria-label="Toggle navigation"
-      >
-        ☰
-      </button>
       <ul className={`navbar-list${open ? " open" : ""}`}>
         {sections.map((section) => (
           <li key={section.anchor}>
