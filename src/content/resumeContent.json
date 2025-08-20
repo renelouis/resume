@@ -36,10 +36,10 @@
       "period": "April 2024 - Present",
       "description": "",
       "details": [
-        "Developed microservices using Java 17 and Spring Boot, integrating with Kafka for event-driven architecture",
+        "Developed microservices using Java 8, Java 17, Java 21, and Spring Boot, integrating with Kafka for event-driven architecture",
         "Conducted testing and debugging of microservices to ensure reliability and performance while deployed on OpenShift Cloud Platform (OCP)",
         "Investigated and implemented solutions to import secrets form Harshicorp Vault to OCP Secrets",
-        "Designed and implemented PoC microservice in Java 21, integrated with Kafka and Google Pub/Sub to be deployed on Google Kebernetes Engine. This service was selected to be a template for a set of new microservices, part of a new Cloud based Fraud monitoring application"
+        "Designed and implemented PoC microservice in Java 21, integrated with Kafka and Google Pub/Sub to be deployed on Google Kebernetes Engine. This service was used as a template for a set of new 5 microservices, part of a new Cloud based Fraud monitoring application"
       ]
     },
     {
@@ -49,8 +49,8 @@
       "description": "",
       "details": [
         "Produced high quality, robust, well tested code for Big Data ETL Spark applications using Scala",
-        "Migrated Spark applications from on-prem Haddop clusters to GCP, using Dataproc",
-        "Created Airflow DAGs to schedule exectution of Spark applications through Cloud Composer",
+        "Migrated Spark applications from on-prem Hadoop cluster to GCP, using Dataproc",
+        "Created Airflow DAGs to schedule execution of Spark applications through Cloud Composer",
         "Mentored junior developers with weekly 1 to 1 and shadowing sessions",
         "Reduced duration of Jenkins jobs triggering tasks through Composer by 30%",
         "Explored use of Google AML AI as part of anti-money laundering checks",
@@ -66,11 +66,11 @@
       "period": "October 2021 - April September 2022",
       "description": "",
       "details": [
-        "Prepare daily, weekly and monthly MI and date to support workload management for the Anti Money Laundering team within Commercial Bankiing",
-        "Schedule AML reviews reviews as per requirements agreed  with senior stakeholders",
+        "Prepare daily, weekly and monthly MI and data to support workload management for the Anti Money Laundering team within Commercial Banking",
+        "Schedule AML reviews as per requirements agreed  with senior stakeholders",
         "Automated genereation of daily MI emails to senior management using VBA macros in Excel",
         "Use of SQL to pull and analyse information to answer business queries",
-        "This role developed my ability to understand problems form stakeholders' point of view"
+        "This role developed my ability to understand problems from stakeholders' point of view"
       ]
     },
     {
@@ -79,9 +79,9 @@
       "period": "September 2018 - Ocotber 2021",
       "description": "",
       "details": [
-        "REview and investigate operational risks and suggest improvements to reduc risks",
+        "Review and investigate operational risks and suggest improvements to reduce risks",
         "Built VBA macros to assist operational teams with daily compliance checks",
-        "Automate several processes across various teams",
+        "Automated several processes across various teams",
         "My analytical skills and ability to interact with different levels of stakeholders (from administrators to heads of function) with Workplace Pensions, Retirement and Protection, HElth Claims and Bereaved areas helped me develop rapidly in nthis role"
       ]
     },
@@ -92,9 +92,9 @@
       "description": "",
       "details": [
         "Ensure collection of monthly pension premiums for a portfolio of 35 companies, for a total of £ 4 million monthly",
-        "Main contact for employers and advisers, answering varied type of requests from multiple parties",
-        "I was entrusted with additional tasks, such as quality checking, control checks for unti holdings and box movement investigations. Those tasks are essential to ensure processes are adhered to and avoid potential losses",
-        "I assisted in the development and testing a CHAPS app to replace a paper-based process, which was a success and is now used by all administrators to nissue same day CHAPS payments",
+        "Main contact for employers and advisers, answering a varied type of requests from multiple parties",
+        "I was entrusted with additional tasks, such as quality checking, control checks for unit holdings and box movement investigations. Those tasks are essential to ensure processes are adhered to and avoid potential losses",
+        "I assisted in the development and testing of a new CHAPS app to replace a paper-based process, which was a success and is now used by all administrators to issue same day CHAPS payments",
         "Built ad hoc Mainframe macros to update properties for bulk of policies using VBA"
       ]
     },
@@ -106,7 +106,7 @@
       "details": [
         "Investigate Subject Access Requests (SARs) for the Royal Bank of Scotland Group's customers",
         "Source personal data related to the customer",
-        "This role developed my ability within a strictly regulated environment, under set deadlines"
+        "This role developed my ability to deliver in a strictly regulated environment, under strict deadlines"
       ]
     }
   ],
@@ -115,10 +115,10 @@
       "degree": "1st class BEng Mechanical (Automotive) Engineering",
       "school": "Heriot-Watt University",
       "period": "September 2009 - June 2011",
-      "description": "Core modules provide deep in engineering and project management. Direct entry in third year was offered to me after successful completion of a two year degree in France"
+      "description": "Core modules provide deep knowledge in engineering and project management. Direct entry in third year was offered to me after successful completion of a two year degree in France"
     },
     {
-      "degree": "DUT Génie Industiel et Maintenance, equivalent of  HND in Industrial Engineering and Maintenance",
+      "degree": "DUT Génie Industriel et Maintenance, equivalent of  HND in Industrial Engineering and Maintenance",
       "school": "Université du Sud Toulon Var, La Garde, France",
       "period": "September 2007 - June 2009"
     }
