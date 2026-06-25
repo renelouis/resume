@@ -36,10 +36,10 @@
       "period": "April 2024 - Present",
       "description": "",
       "details": [
-        "Developed microservices using Java 8, Java 17, Java 21, and Spring Boot, integrating with Kafka for event-driven architecture",
-        "Conducted testing and debugging of microservices to ensure reliability and performance while deployed on OpenShift Cloud Platform (OCP)",
-        "Investigated and implemented solutions to import secrets form Harshicorp Vault to OCP Secrets",
-        "Designed and implemented PoC microservice in Java 21, integrated with Kafka and Google Pub/Sub to be deployed on Google Kebernetes Engine. This service was used as a template for a set of new 5 microservices, part of a new Cloud based Fraud monitoring application"
+        "Design and deliver cloud-native micro-services (Java 17, 21, Spring Boot) on GCP (GKE) and OpenShift Cloud Platform, supporting hihg-volume fraud monitoring and transaction screening workloads.",
+        "Lead the migration of CI/CD pipeline to startegic tooling (IDP, GHEU, Harness), aligning with platform standards and enabling consistent, scalable deployment across environments.",
+        "Designed and built a proof-of-concept micro-service, integrating Kafka and Google Pub/Sub, which became the foundation for multiple micro-services underpinning a new transaction monitoring application",
+        "Led the successful upgrade to OSSM v3 for an inbound payments screening application, improving platform stability and enabling adoption of modern service mesh capabilities."
       ]
     },
     {
@@ -48,16 +48,12 @@
       "period": "September 2022 - April 2024",
       "description": "",
       "details": [
-        "Produced high quality, robust, well tested code for Big Data ETL Spark applications using Scala",
-        "Migrated Spark applications from on-prem Hadoop cluster to GCP, using Dataproc",
-        "Created Airflow DAGs to schedule execution of Spark applications through Cloud Composer",
-        "Mentored junior developers with weekly 1 to 1 and shadowing sessions",
+        "Developed and maintained ETL pipelines for AML data processing, supporting financial crime detection and investigation.",
+        "Migrated Spark applications from on-prem Hadoop (Hive, HDFS) to GCP (Composer, Dataproc, BigQuery), improving scalability and reducing operational costs",
+
         "Reduced duration of Jenkins jobs triggering tasks through Composer by 30%",
         "Explored use of Google AML AI as part of anti-money laundering checks",
-        "Built knowledge of BigQuery dataset creation through Terraform scripts",
-        "Led workshops with business analysts and data SMEs to create data mapping for AML AI PoC",
-        "Second place achieved in Reboot X Hackathon in December 2023, using Microsoft Azure as platform",
-        "Experience using Terraform to deploy infrastructure on GCP"
+        "Second place achieved in Reboot X Hackathon in December 2023, using Microsoft Azure as platform"
       ]
     },
     {
@@ -121,6 +117,13 @@
       "degree": "DUT Génie Industriel et Maintenance, equivalent of  HND in Industrial Engineering and Maintenance",
       "school": "Université du Sud Toulon Var, La Garde, France",
       "period": "September 2007 - June 2009"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Second place in Reboot X Hackathon",
+      "date": "December 2023",
+      "description": "Achieved second place with team in the Reboot X Hackathon using Microsoft Azure as the platform."
     }
   ]
 }
