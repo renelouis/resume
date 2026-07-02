@@ -1,3 +1,5 @@
+@use "../_variables.scss" as v;
+
 ul.experience-details {
   display: flex;
   flex-direction: column;
@@ -5,6 +7,15 @@ ul.experience-details {
 }
 
 .experience-details li {
-  padding: 0em 1rem;
+  padding: 0em 0rem 0.5rem 1rem;
   border: none;
+}
+
+.experience-details li::before {
+  content: "▸";
+  color: v.$bullet-color;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
